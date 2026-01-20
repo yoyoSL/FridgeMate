@@ -14,7 +14,11 @@
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
     </fragment>
-
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.project.fridgemate.ui.feed.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.project.fridgemate.ui.register.RegisterFragment"
