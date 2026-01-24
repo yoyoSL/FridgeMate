@@ -56,6 +56,14 @@
     <!-- My Profile Screen -->
     <string name="my_profile_title">My Profile</string>
     <string name="tab_back">Back</string>
+    <string name="change_photo">change photo</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="full_name_info">Full name</string>
+    <string name="location">Location</string>
+
+    <!-- Bottom Sheet -->
+
+
 
 
 
