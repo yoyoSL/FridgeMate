@@ -52,4 +52,6 @@
     <string name="category_protein">Protein</string>
     <string name="category_dairy">Dairy</string>
     <string name="category_vegetables">Vegetables</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
