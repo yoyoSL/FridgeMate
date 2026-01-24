@@ -52,6 +52,12 @@
     <string name="category_protein">Protein</string>
     <string name="category_dairy">Dairy</string>
     <string name="category_vegetables">Vegetables</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- My Profile Screen -->
+    <string name="my_profile_title">My Profile</string>
+    <string name="tab_back">Back</string>
+
+
+
+
 </resources>

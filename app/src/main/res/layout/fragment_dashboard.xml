@@ -8,7 +8,7 @@
 
     <!-- Header Section -->
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/header_layout"
+        android:id="@+id/my_profile_header_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tv_greeting"
+            android:id="@+id/my_profile_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello, Yoav! 👋"
@@ -48,7 +48,7 @@
         android:layout_height="64dp"
         android:background="@color/white"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/header_layout">
+        app:layout_constraintTop_toBottomOf="@id/my_profile_header_layout">
 
         <LinearLayout
             android:id="@+id/tab_feed"

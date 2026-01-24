@@ -13,6 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
+.idea/copilot*.xml
+
+
 
 # Build variants
 *.apk
