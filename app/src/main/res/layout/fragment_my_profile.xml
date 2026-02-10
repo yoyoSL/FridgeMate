@@ -139,7 +139,7 @@
                 android:layout_marginTop="130dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
-    <!-- Personal info Card -->
+    <!-- Dietary pref Card -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardDietaryPref"
         android:layout_width="0dp"
