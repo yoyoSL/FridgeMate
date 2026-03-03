@@ -12,6 +12,7 @@ import com.project.fridgemate.R
 import com.project.fridgemate.databinding.FragmentDashboardBinding
 import com.project.fridgemate.databinding.PopupProfileMenuBinding
 import com.project.fridgemate.ui.fridge.FridgeFragment
+import com.project.fridgemate.ui.recipes.RecipesFragment
 
 class DashboardFragment : Fragment() {
 
@@ -45,7 +46,9 @@ class DashboardFragment : Fragment() {
         }
 
         binding.tabFeed.setOnClickListener { /* TODO: Implement Feed */ }
-        binding.tabRecipes.setOnClickListener { /* TODO: Implement Recipes */ }
+        binding.tabRecipes.setOnClickListener { selectTab(it)
+            showFragment(RecipesFragment())
+        }
         binding.tabJournal.setOnClickListener { /* TODO: Implement Journal */ }
     }
 
@@ -101,13 +104,17 @@ class DashboardFragment : Fragment() {
 
         // Highlight selected tab
         val accentColor = ContextCompat.getColor(requireContext(), R.color.teal_primary)
-        
+
         when (selectedTabView.id) {
             R.id.tab_my_fridge -> {
                 binding.ivTabFridge.setColorFilter(accentColor)
                 binding.tvTabFridge.setTextColor(accentColor)
                 binding.vIndicatorFridge.setBackgroundColor(accentColor)
                 binding.vIndicatorFridge.visibility = View.VISIBLE
+            }
+            R.id.tab_recipes -> {
+                binding.ivTabRecipes.setColorFilter(accentColor)
+                binding.tvTabRecipes.setTextColor(accentColor)
             }
         }
     }
