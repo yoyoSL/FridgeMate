@@ -33,7 +33,7 @@ class MemberAdapter(
         holder.name.text = if (member.isCurrentUser) "${member.name} (You)"
         else member.name
 
-        //TODO ROOM API..
+        //TODO API..
         holder.photo.setImageResource(R.drawable.ic_person)
     }
 
